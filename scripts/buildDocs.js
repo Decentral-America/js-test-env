@@ -4,9 +4,9 @@ const {rmdir} = require('./utils');
 
 
 const mainIn = './src/index.d.ts';
-const interfacesIn = './node_modules/@waves/waves-transactions/dist/transactions.d.ts';
+const interfacesIn = './node_modules/@decentralchain/waves-transactions/dist/transactions.d.ts';
 const mainOut = './build/global.d.ts';
-const interfacesOut = './build//node_modules/@waves/waves-transactions/dist/transactions.d.ts';
+const interfacesOut = './build//node_modules/@decentralchain/waves-transactions/dist/transactions.d.ts';
 const typedocPath = './node_modules/typedoc/bin/typedoc';
 //
 if (!fs.existsSync('build')) {

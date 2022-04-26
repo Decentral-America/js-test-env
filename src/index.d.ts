@@ -37,7 +37,7 @@ import {
     WithTxType,
     INodeRequestOptions,
     TDataEntry, ITransaction, IUpdateAssetInfoParams, IUpdateAssetInfoTransaction
-} from '@waves/waves-transactions';
+} from '@decentralchain/waves-transactions';
 
 ///splice-start
 declare global {

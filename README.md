@@ -1,14 +1,14 @@
-# Testing environment form WAVES blockchain
+# Testing environment form Decentralchain
 ### How to ?
 
-Import package and write typescript/javascript code, interacting with waves blockchain. Package contains all global type definitions.
+Import package and write typescript/javascript code, interacting with Decentralchain blockchain. Package contains all global type definitions.
 #### Example using mocha test runner
 ```typescript
-import '@waves/js-test-env';
+import '@decentralchain/js-test-env';
 
 env.API_BASE = "http://localhost:6869/";
 env.CHAIN_ID = "R";
-env.SEED = "waves private node seed with waves tokens";
+env.SEED = "Decentralchain private node seed with DCC tokens";
 
 describe('My first test suite', () => {
     const wvs = 10 ** 8;
@@ -45,6 +45,6 @@ describe('My first test suite', () => {
 
 ```
 
-### [Here](https://wavesplatform.github.io/js-test-env/globals.html) you can find list of all globally available functions for ride test environment and REPL 
+### [Here](https://github.com/Decentral-America/js-test-env/globals.html) you can find list of all globally available functions for ride test environment and REPL 
 
 Keep in mind that by default, if not passed, `chainId`, `seed` and `nodeUrl` are taken from your test env configuration file (or Web IDE settings) 

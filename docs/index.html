@@ -60,21 +60,21 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
-				<a href="#testing-environment-form-waves-blockchain" id="testing-environment-form-waves-blockchain" style="color: inherit; text-decoration: none;">
-					<h1>Testing environment form WAVES blockchain</h1>
+				<a href="#testing-environment-form-decentralchain" id="testing-environment-form-decentralchain" style="color: inherit; text-decoration: none;">
+					<h1>Testing environment form DecentralChain</h1>
 				</a>
 				<a href="#how-to-" id="how-to-" style="color: inherit; text-decoration: none;">
 					<h3>How to ?</h3>
 				</a>
-				<p>Import package and write typescript/javascript code, interacting with waves blockchain. Package contains all global type definitions.</p>
+				<p>Import package and write typescript/javascript code, interacting with DecentralChain. Package contains all global type definitions.</p>
 				<a href="#example-using-mocha-test-runner" id="example-using-mocha-test-runner" style="color: inherit; text-decoration: none;">
 					<h4>Example using mocha test runner</h4>
 				</a>
-				<pre><code class="language-typescript"><span class="hljs-keyword">import</span> <span class="hljs-string">'@waves/js-test-env'</span>;
+				<pre><code class="language-typescript"><span class="hljs-keyword">import</span> <span class="hljs-string">'@decentralchain/js-test-env'</span>;
 
 env.API_BASE = <span class="hljs-string">"http://localhost:6869/"</span>;
 env.CHAIN_ID = <span class="hljs-string">"R"</span>;
-env.SEED = <span class="hljs-string">"waves private node seed with waves tokens"</span>;
+env.SEED = <span class="hljs-string">"DecentralChain private node seed with DCC tokens"</span>;
 
 describe(<span class="hljs-string">'My first test suite'</span>, <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
     <span class="hljs-keyword">const</span> wvs = <span class="hljs-number">10</span> ** <span class="hljs-number">8</span>;
@@ -110,7 +110,7 @@ describe(<span class="hljs-string">'My first test suite'</span>, <span class="hl
 })
 </code></pre>
 				<a href="#a-hrefhttpswavesplatformgithubiojs-test-envglobalshtmlherea-you-can-find-list-of-all-globally-available-functions-for-ride-test-environment-and-repl" id="a-hrefhttpswavesplatformgithubiojs-test-envglobalshtmlherea-you-can-find-list-of-all-globally-available-functions-for-ride-test-environment-and-repl" style="color: inherit; text-decoration: none;">
-					<h3><a href="https://wavesplatform.github.io/js-test-env/globals.html">Here</a> you can find list of all globally available functions for ride test environment and REPL</h3>
+					<h3><a href="https://decentral-america.github.io/js-test-env/globals.html">Here</a> you can find list of all globally available functions for ride test environment and REPL</h3>
 				</a>
 				<p>Keep in mind that by default, if not passed, <code>chainId</code>, <code>seed</code> and <code>nodeUrl</code> are taken from your test env configuration file (or Web IDE settings) </p>
 			</div>
@@ -125,7 +125,7 @@ describe(<span class="hljs-string">'My first test suite'</span>, <span class="hl
 						<a href="modules/chai.html">chai</a>
 					</li>
 					<li class=" tsd-kind-module">
-						<a href="modules/wavescrypto.html">waves<wbr>Crypto</a>
+						<a href="modules/dcccrypto.html">DCC<wbr>Crypto</a>
 					</li>
 				</ul>
 			</nav>

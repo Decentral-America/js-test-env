@@ -7,8 +7,8 @@ try {
 }
 augment(globalObj);
 globalObj.env = {
-    API_BASE: 'https://nodes-testnet.wavesnodes.com',
+    API_BASE: 'https://testnet-node.decentralchain.io',
     SEED: 'default seed',
-    CHAIN_ID: 'T',
+    CHAIN_ID: '!',
     timeout: 20000
 };

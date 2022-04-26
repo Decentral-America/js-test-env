@@ -1,5 +1,5 @@
-import * as wt from '@waves/waves-transactions';
-import { INodeRequestOptions } from '@waves/waves-transactions';
+import * as wt from '@decentralchain/waves-transactions';
+import { INodeRequestOptions } from '@decentralchain/waves-transactions';
 import { compile as cmpl } from '@waves/ride-js';
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';

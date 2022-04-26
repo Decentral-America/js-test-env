@@ -30,7 +30,7 @@
     "sourceMap": false
   },
   "include": ["src/**/*", "typings/*", "src/**/*.json"],
-//  "files": ["src/main.ts", "node_modules/@waves/waves-transactions/dist/transactions.d.ts"],
+//  "files": ["src/main.ts", "node_modules/@decentralchain/waves-transactions/dist/transactions.d.ts"],
   "typedocOptions": {
     "name": "js-test-env",
     "mode": "file",
